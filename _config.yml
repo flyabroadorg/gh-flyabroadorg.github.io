@@ -1,0 +1,60 @@
+title: 飞出国联盟
+author: flyabroad.org
+
+navbar-links:
+  Who: "/#who"
+  What: "/#what"
+  How: "/#how"
+  About: "/#about"
+
+avatar: "/assets/img/avatar-icon.png"
+round-avatar: true
+
+url-pretty: "flyabroad.org"
+
+excerpt_length: 50
+feed_show_excerpt: true
+feed_show_tags: true
+
+keywords: "飞出国联盟"
+
+date_format: "%B %-d, %Y"
+
+timezone: "Asia/Shanghai"
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+paginate: 6
+
+kramdown:
+  input: GFM
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+      readtime: true # make all blog posts have readtime
+      permalink: /blog/:title/ # all blogposts are in the /blog/title path
+  -
+    scope:
+      path: "" # any file that's not a post will be a "page" layout by default
+    values:
+      layout: "page"
+
+# Exclude these files from production site
+exclude:
+  - .gitignore
+  - .gitattributes
+  - README.md
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-tidy
+  - jekyll-redirect-from
+  - jekyll/twemoji
