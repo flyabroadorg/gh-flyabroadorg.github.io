@@ -1,30 +1,46 @@
+# remote_theme: daattali/beautiful-jekyll
+
 title: 飞出国联盟
-author: flyabroad.org
+
+author: 飞出国联盟
 
 navbar-links:
-  Who: "/#who"
-  What: "/#what"
-  How: "/#how"
-  About: "/#about"
+  联盟: "/#0"
+  概述: "/#1"
+  价值: "/#2"
+  加入: "/#3"
+  规则: "/#4"
+  注意: "/#5"
+  免责: "/#6"
 
-avatar: "/assets/img/avatar-icon.png"
-round-avatar: true
+title-img: /assets/img/flyabroad-logo-light.png
+
+site-css: "/assets/css/flyabroad.css"
+
+keywords: "飞出国联盟, 微出国论坛"
+
+mobile-theme-col: "#0085A1"
+navbar-col: "#05172d"
+navbar-text-col: "#fff"
+navbar-border-col: "#05172d"
+
+social-network-links:
+  email: "zixun@flyabroad.com.hk"
+  github: flyabroad
+  twitter: flyabroad
+  # calendly: "attalitech/meeting"
+  # youtube: "c/daattali?sub_confirmation=1"
+  # patreon: DeanAttali
 
 url-pretty: "flyabroad.org"
 
-excerpt_length: 50
-feed_show_excerpt: true
-feed_show_tags: true
+footer-img: "/assets/img/footer-bg.png"
 
-keywords: "飞出国联盟"
-
-date_format: "%B %-d, %Y"
+# google_analytics: "UA-59820529-1"
 
 timezone: "Asia/Shanghai"
 markdown: kramdown
 highlighter: rouge
-permalink: /:title/
-paginate: 6
 
 kramdown:
   input: GFM
@@ -33,28 +49,17 @@ defaults:
   -
     scope:
       path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
-      readtime: true # make all blog posts have readtime
-      permalink: /blog/:title/ # all blogposts are in the /blog/title path
-  -
-    scope:
-      path: "" # any file that's not a post will be a "page" layout by default
     values:
       layout: "page"
+      nav-short: true
 
-# Exclude these files from production site
+
 exclude:
-  - .gitignore
-  - .gitattributes
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
   - README.md
 
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-tidy
-  - jekyll-redirect-from
-  - jekyll/twemoji
