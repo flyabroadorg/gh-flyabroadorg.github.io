@@ -12,12 +12,15 @@ navbar-links:
   规则: "/#4"
   注意: "/#5"
   免责: "/#6"
+  联系: "/contact"
 
 title-img: /assets/img/flyabroad-logo-light.png
 
 site-css: "/assets/css/flyabroad.css"
 
 keywords: "飞出国联盟, 微出国论坛"
+
+favicon: "/favicon.ico"
 
 mobile-theme-col: "#0085A1"
 navbar-col: "#05172d"
@@ -36,7 +39,7 @@ url-pretty: "flyabroad.org"
 
 footer-img: "/assets/img/footer-bg.png"
 
-# google_analytics: "UA-59820529-1"
+google_analytics: "G-MPP7WQEQDT"
 
 timezone: "Asia/Shanghai"
 markdown: kramdown
@@ -55,7 +58,6 @@ defaults:
 
 
 exclude:
-  - CNAME
   - Gemfile
   - Gemfile.lock
   - README.md
