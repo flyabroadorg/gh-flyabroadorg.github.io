@@ -10,18 +10,32 @@ share-title: 飞出国 | flyabroad
 <p><h2 style="text-align:center; font-weight:bold;">展示的平台，交流的平台，合作的平台</h2></p>
 </div>
 
+一群人，一件事，一辈子，努力，是一辈子的事！
+
+梦想还是要有的，万一实现了呢？但梦想从来都是要靠坚持来实现的！
+
+在这个现实很骨感的年代依然需要理想，它为我们指引努力的方向。
+
+如果你希望将出国作为事业，如果出国咨询服务是你的兴趣，如果你与飞出国有相似的价值观希望通过自己的专业帮助到更多人，不再*犹豫，加入飞出国联盟吧。
+
+* 这是一个信息分化的时代，这也是一个需要统一平台的时代；
+* 这个一个专业人做专业事的时代，这是一个多渠道展现自我的时代；
+* 这是一个涌向短、微、快的时代，这也是一个需要找个地方沉淀下来的时代；
+
+飞出国联盟给你一个专为出国人群和出国服务机构交流、分享和展示的平台。你在这里的积累会持久产生价值。
+
 <div>
-<p><h3 style="text-align:center; font-weight:bold;">微信联系飞出国联盟</h2></p>
+<p><h3 style="text-align:center; font-weight:bold;">微信联系飞出国联盟</h3></p>
 </div>
 
 <div class="container">
   <div class="row justify-content-md-center">
     <div class="col-md-auto">
-      <img style="max-widht: 250px; max-height: 150px" src="http://kit.flyabroadvisa.com/wx18/flyabroad_hk.jpg" alt="飞出国咨询微信" />
+      <img style="max-widht: 250px; max-height: 150px" src="https://kit.flyabroadvisa.com/wx18/flyabroad_hk.jpg" alt="飞出国咨询微信" />
       <div style="text-align:center; font-weight:bold;">飞出国HK合作微信</div>
     </div>
     <div class="col-md-auto">
-      <img style="max-widht: 250px; max-height: 150px" src="http://kit.flyabroadvisa.com/wx18/baodechuguo-flyeven.jpg" alt="飞出国服务监督" />
+      <img style="max-widht: 250px; max-height: 150px" src="https://kit.flyabroadvisa.com/wx18/baodechuguo-flyeven.jpg" alt="飞出国服务监督" />
       <div style="text-align:center; font-weight:bold;">飞出国flyeven合作微信</div>
     </div>
   </div>
@@ -47,7 +61,7 @@ share-title: 飞出国 | flyabroad
 <form action="https://formspree.io/zixun@flyabroad.com.hk" method="POST" class="form" id="contact-form">
   <div class="row">
     <div class="col-6">
-      <input type="email" name="_replyto" required="required" class="form-control input-lg" placeholder="Email 常用邮箱" title="Email" style="margin-bottom: 15px;">
+      <input type="email" name="_replyto" required="required" class="form-control input-lg" placeholder="Email 常用邮箱（必须）" title="Email" style="margin-bottom: 15px;">
     </div>
     <div class="col-6">
       <input type="text" name="name" class="form-control input-lg" placeholder="您的称呼" title="Name" style="margin-bottom: 15px;">
